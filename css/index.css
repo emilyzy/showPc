@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 12px;
+    font-size: 14px;
     text-decoration: none;
 }
 
@@ -152,7 +152,9 @@ body{
     height: 100%;
     border: none;
     background: transparent;
-    margin-left: 2px;
+    line-height: 40px;
+    font-size: 20px;
+    margin-left: 8px;
 }
 
 input:focus {
@@ -739,7 +741,7 @@ input:focus {
     width: 149px;
     background: url("../image/work-filter1.png") no-repeat;
     background-size: 100% auto;
-    font-size: 12px;
+    font-size: 20px;
     line-height: 42px;
     padding-left: 27px;
     color: #fff;
@@ -750,7 +752,7 @@ input:focus {
     width: 149px;
     background: url("../image/work-filter2.png") no-repeat;
     background-size: 100% auto;
-    font-size: 12px;
+    font-size: 20px;
     line-height: 42px;
     padding-left: 27px;
     color: #fff;
@@ -761,7 +763,7 @@ input:focus {
     width: 149px;
     background: url("../image/work-filter3.png") no-repeat;
     background-size: 100% auto;
-    font-size: 12px;
+    font-size: 20px;
     line-height: 42px;
     padding-left: 27px;
     color: #fff;
@@ -1304,6 +1306,7 @@ input:focus {
 }
 
 .line1-left{
+    font-size: 20px;
     float: left;
     width: 100px;
     height: 20px;
@@ -1677,7 +1680,7 @@ input:focus {
 .footer-text1{
     width: 120px;
     height: 25px;
-    font-size: 12px;
+    font-size: 18px;
     line-height: 25px;
     text-align: center;
     color: #959393;
@@ -1688,7 +1691,7 @@ input:focus {
     width: 740px;
     height: 25px;
     line-height: 25px;
-    font-size: 12px;
+    font-size: 15px;
     color: #959393;
     margin: 16px 20px;
     /*text-align: center;*/
