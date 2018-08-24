@@ -710,8 +710,11 @@
 <script src="jquery.js"></script>
 <script>
     let box = $(".header-banner-box");
+    //header-banner-banner
+    //header-banner-img
     let page = $(".banner-pager-item");
     let img = $(".header-banner-pic");
+
     let n=0;
     let t = setInterval(move,5000);
     function move() {
@@ -741,8 +744,8 @@
         let index = $(this).index();
         img.animate({left:-index*1440},1000);
         n=index;
-        /*console.log(this)*/
-    });
+    })
+
 </script>
 
 </body>
