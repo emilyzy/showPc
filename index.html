@@ -710,20 +710,17 @@
 <script src="jquery.js"></script>
 <script>
     let box = $(".header-banner-box");
-    //header-banner-banner
-    //header-banner-img
     let page = $(".banner-pager-item");
     let img = $(".header-banner-pic");
-
     let n=0;
-    let t = setInterval(move,3000);
+    let t = setInterval(move,5000);
     function move() {
         n++;
         page.removeClass("active").eq(n).addClass("active");
         if(n===4){
             page.eq(0).addClass("active");
         }
-        img.animate({left:-n*1440},500,function () {
+        img.animate({left:-n*1440},1000,function () {
             if(n===page.length){
                 img.css("left",0);
                 n=0;
@@ -736,15 +733,16 @@
     });
 
     box.mouseleave(function () {
-        t=setInterval(move,3000);
+        t=setInterval(move,5000);
     });
 
     page.click(function () {
         page.removeClass("active").filter(this).addClass("active");
         let index = $(this).index();
-        img.animate({left:-index*1440},500);
-    })
-
+        img.animate({left:-index*1440},1000);
+        n=index;
+        /*console.log(this)*/
+    });
 </script>
 
 </body>
